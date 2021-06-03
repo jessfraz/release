@@ -4,7 +4,7 @@ go 1.16
 
 require (
 	cloud.google.com/go v0.83.0
-	cloud.google.com/go/storage v1.12.0
+	cloud.google.com/go/storage v1.15.0
 	github.com/GoogleCloudPlatform/testgrid v0.0.38
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/cheggaaa/pb/v3 v3.0.8
