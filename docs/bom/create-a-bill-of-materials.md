@@ -1,6 +1,24 @@
 # Generating a Bill of Materials for Your Project
 
- <!-- toc -->
+<!-- toc -->
+
+- [Introduction](#introduction)
+  * [What is a Bill of Materials?](#what-is-a-bill-of-materials)
+  * [bom: A tool to generate SBOMs for your Project](#bom-a-tool-to-generate-sboms-for-your-project)
+- [SPDX: Software Package Data Exchange](#spdx-software-package-data-exchange)
+  * [Files and Packages](#files-and-packages)
+  * [Relationships](#relationships)
+  * [Licensing Information](#licensing-information)
+- [Create your Bill of Materials](#create-your-bill-of-materials)
+  * [Thinking about your Release](#thinking-about-your-release)
+  * [Generating the SBOM](#generating-the-sbom)
+    + [Namespace](#namespace)
+    + [Simplest Use Case: One Package](#simplest-use-case-one-package)
+    + [Adding Additional Sources](#adding-additional-sources)
+    + [Example: Generate an SBOM for etcd](#example-generate-an-sbom-for-etcd)
+
+<!-- tocstop -->
+
 - [Introduction](#introduction)
   - [What is a Bill of Materials?](#what-is-a-bill-of-materials)
   - [bom: A tool to generate SBOMs for your Project](#bom-a-tool-to-generate-sboms-for-your-project)
